@@ -8,7 +8,7 @@ logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s')
 project_name = 'nlp-text-summary-generator'
 
 files_list = [
-    '.github/workflows/.gitkeep',
+    'NLP/Text-summarization/.github/workflows/.gitkeep',
     f'NLP/Text-summarization/src/__init__.py',
     f'NLP/Text-summarization/src/components/__init__.py',
     f'NLP/Text-summarization/src/utils/__init__.py',
