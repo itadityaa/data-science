@@ -29,6 +29,7 @@ list_of_files = [
     "research/trials.ipynb",
     "templates/index.html"
     '.env'
+    'main.py'
 ]
 
 for filepath in list_of_files:
