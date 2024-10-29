@@ -4,7 +4,7 @@ import logging
 
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s: ')
 
-project_name = 'e2e_cnnClassifier'
+project_name = 'e2e_cnnClassifier_ChestCancer'
 
 print(f'Current Working directory: {os.getcwd()}')
 print(f'Change working directory')
@@ -28,6 +28,7 @@ list_of_files = [
     "setup.py",
     "research/trials.ipynb",
     "templates/index.html"
+    '.env'
 ]
 
 for filepath in list_of_files:
