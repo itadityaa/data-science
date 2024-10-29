@@ -31,3 +31,15 @@ kaggle.json
 # Ignore CSV, EXCEL files
 *.csv
 *.xlsx
+
+# Ignore Datasets folder
+dataset/
+
+# Ignore image files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.svg
