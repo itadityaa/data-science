@@ -41,4 +41,7 @@ chromedriver-win64/
 *.gif
 *.bmp
 *.tiff
-*.svg
+*.svg"
+
+# Ignore specific config files
+DA/Amazon-Jobs/config.yml
