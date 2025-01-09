@@ -31,6 +31,9 @@ kaggle.json
 # Ignore Datasets folder
 dataset/
 
+# Ignore chrome driver
+chromedriver-win64/
+
 # Ignore image files
 *.jpg
 *.jpeg

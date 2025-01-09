@@ -7,3 +7,8 @@ base_url: "https://www.amazon.jobs/en/"
 download:
   download_dir: "data"
   download_file: "jobs.csv"
+
+selenium:
+  driver_path: "C:/Users/itadi/Desktop/data-science/chromedriver-win64/chromedriver.exe"
+  headless: False
+  timeout: 10
