@@ -1,0 +1,9 @@
+logging:
+  log_dir: "logs"
+  log_file: "info.log"
+
+base_url: "https://www.amazon.jobs/en/"
+
+download:
+  download_dir: "data"
+  download_file: "jobs.csv"
