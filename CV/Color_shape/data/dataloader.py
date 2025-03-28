@@ -42,7 +42,6 @@ class ShapeColorDataset(Dataset):
         if self.transform:
             image = self.transform(image)
 
-        # Convert labels to multi-hot encoding
         label = torch.tensor(self.encoded_labels[idx], dtype=torch.float32)
 
         return image, label

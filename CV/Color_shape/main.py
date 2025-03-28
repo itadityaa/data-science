@@ -13,7 +13,7 @@ from models.resnet18_model import ResNetModel
 
 # Early Stopping Callback
 class EarlyStopping:
-    def __init__(self, patience=5, delta=0.001, save_path="C:/Users/itadi/Desktop/data-science/CV/Color_shape/saved_models/initial_model.pth"):
+    def __init__(self, patience=5, delta=0.001, save_path="PATH_TO_SAVE_MODEL.pt"):
         self.patience = patience
         self.delta = delta
         self.save_path = save_path
@@ -33,8 +33,8 @@ class EarlyStopping:
         return self.counter >= self.patience  # Stop if patience exceeded
 
 if __name__ == "__main__":
-    csv_path = "C:/Users/itadi/Desktop/data-science/CV/Color_shape/data/raw/train.csv"
-    image_dir = "C:/Users/itadi/Desktop/data-science/CV/Color_shape/data/raw"
+    csv_path = "TRAIN_CSV_PATH" 
+    image_dir = "TRAIN_IMAGE_DIR_PATH"
 
     print("\nLoading Data...")
     dataloader, class_names = get_dataloader(csv_path, image_dir, batch_size=32)
